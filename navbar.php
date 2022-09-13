@@ -9,7 +9,7 @@
                 <div class="collapse" id="collapseLayoutsDoctor" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
                         <a class="nav-link" href="create_doctor.php">Create Doctor</a>
-                        <a class="nav-link" href="">Update Doctor</a>                                    
+                        <a class="nav-link" href="update_doctor.php">Update Doctor</a>                                    
                         <a class="nav-link" href="">Delete & View Doctor</a>
                         <a class="nav-link" href="">Doctor Schedule</a>
                     </nav>
