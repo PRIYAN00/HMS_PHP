@@ -40,7 +40,7 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4 text-center">Create Doctor</h1>
+                    <h1 class="mt-4 text-center">Update Doctor</h1>
                     <form method="POST">
                         <div class="container">
                         <label>Doctor ID</label>
