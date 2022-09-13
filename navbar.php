@@ -10,7 +10,7 @@
                     <nav class="sb-sidenav-menu-nested nav">
                         <a class="nav-link" href="create_doctor.php">Create Doctor</a>
                         <a class="nav-link" href="update_doctor.php">Update Doctor</a>                                    
-                        <a class="nav-link" href="">Delete & View Doctor</a>
+                        <a class="nav-link" href="delete&view_doctor.php">Delete & View Doctor</a>
                         <a class="nav-link" href="">Doctor Schedule</a>
                     </nav>
                 </div>     
