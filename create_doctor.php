@@ -161,7 +161,29 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4">Create Doctor</h1>
+                    <h1 class="mt-4 text-center">Create Doctor</h1>
+                    <form method="POST">
+                        <div class="container">
+                        <label>First Name</label>
+                        <input type="text" name="fname" class="form-control my-1" placeholder="Enter First Name">
+                        <label>Last Name</label>
+                        <input type="text" name="lname" class="form-control my-1" placeholder="Enter Last Name">
+                        <label>Phone Number</label>
+                        <input type="text" name="phoneno" class="form-control my-1" placeholder="Enter Phone Number">
+                        <label>Email Address</label>
+                        <input type="email" name="email" class="form-control my-1" placeholder="Enter Email Address">
+                        <label>Password</label>
+                        <input type="password" name="password" class="form-control my-1" placeholder="Enter Your New Password">
+                        <label>Address</label>
+                        <input type="text" name="address" class="form-control my-1" placeholder="Enter Address">
+                        <label>NIC No</label>
+                        <input type="text" name="nic" class="form-control my-1" placeholder="Enter NIC No">
+                        <label>Specialization</label>
+                        <input type="text" name="Specialization" class="form-control my-1" placeholder="Enter Doctor Specialization">
+
+                        <input type="submit" value="Save" class="btn btn-success container mt-3">
+                        </div>
+                    </form>
                 </div>
             </main>
         </div>
