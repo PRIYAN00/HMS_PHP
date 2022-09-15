@@ -37,6 +37,17 @@
                     </nav>
                 </div>     
                 <!-- Patient --> 
+                <!-- Patient Medicial History -->                          
+                <a class="nav-link collapsed mx-3 fw-bolder text-uppercase" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsPatient_Medicial_History" aria-expanded="false" aria-controls="collapseLayouts">
+                Patient Medicial History  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapseLayoutsPatient_Medicial_History" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav">
+                        <a class="nav-link" href="">Create Patient Medicial Histrory</a>                                   
+                        <a class="nav-link" href="">Delete & View Patient Medicial History</a>
+                    </nav>
+                </div>     
+                <!-- Patient Medicial History -->
                 <!-- ward -->                          
                 <a class="nav-link collapsed mx-3 fw-bolder text-uppercase" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsward" aria-expanded="false" aria-controls="collapseLayouts">
                 Ward  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
@@ -86,8 +97,7 @@
                 Appoinment  <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                 </a>
                 <div class="collapse" id="collapseLayoutsAppoinment" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
-                    <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Appoinment</a>                                  
+                    <nav class="sb-sidenav-menu-nested nav">                                 
                         <a class="nav-link" href="">Delete & View Appoinment</a>
                     </nav>
                 </div>     
