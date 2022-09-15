@@ -8,10 +8,9 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsDoctor" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="create_doctor.php">Create Doctor</a>
-                        <a class="nav-link" href="update_doctor.php">Update Doctor</a>                                    
+                        <a class="nav-link" href="create_doctor.php">Create Doctor</a>                                   
                         <a class="nav-link" href="delete&view_doctor.php">Delete & View Doctor</a>
-                        <a class="nav-link" href="">Doctor Schedule</a>
+                        <a class="nav-link" href="doctor_schedule.php">Doctor Schedule</a>
                     </nav>
                 </div>     
                 <!-- DOCTOR -->  
@@ -21,8 +20,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsStaff" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Staff</a>
-                        <a class="nav-link" href="">Update Staff</a>                                    
+                        <a class="nav-link" href="">Create Staff</a>                                 
                         <a class="nav-link" href="">Delete & View Staff</a>
                         <a class="nav-link" href="">Staff Schedule</a>
                     </nav>
@@ -34,8 +32,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsPatient" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Patient</a>
-                        <a class="nav-link" href="">Update Patient</a>                                    
+                        <a class="nav-link" href="">Create Patient</a>                               
                         <a class="nav-link" href="">Delete & View Patient</a>
                     </nav>
                 </div>     
@@ -46,8 +43,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsward" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Ward</a>
-                        <a class="nav-link" href="">Update Ward</a>                                    
+                        <a class="nav-link" href="">Create Ward</a>                                  
                         <a class="nav-link" href="">Delete & View Ward</a>
                     </nav>
                 </div>     
@@ -58,8 +54,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutswarda" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Ward Admisssion</a>
-                        <a class="nav-link" href="">Update Ward Admisssion</a>                                    
+                        <a class="nav-link" href="">Create Ward Admisssion</a>                                  
                         <a class="nav-link" href="">Delete & View Ward Admisssion</a>
                     </nav>
                 </div>     
@@ -70,8 +65,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsRoom" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Room</a>
-                        <a class="nav-link" href="">Update Room</a>                                    
+                        <a class="nav-link" href="">Create Room</a>                              
                         <a class="nav-link" href="">Delete & View Room</a>
                     </nav>
                 </div>     
@@ -82,8 +76,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsRooma" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Room Admisssion</a>
-                        <a class="nav-link" href="">Update Room Admisssion</a>                                    
+                        <a class="nav-link" href="">Create Room Admisssion</a>                                 
                         <a class="nav-link" href="">Delete & View Room Admisssion</a>
                     </nav>
                 </div>     
@@ -94,8 +87,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsAppoinment" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Appoinment</a>
-                        <a class="nav-link" href="">Update Appoinment</a>                                    
+                        <a class="nav-link" href="">Create Appoinment</a>                                  
                         <a class="nav-link" href="">Delete & View Appoinment</a>
                     </nav>
                 </div>     
@@ -106,8 +98,7 @@
                 </a>
                 <div class="collapse" id="collapseLayoutsSurgery" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="">Create Surgery</a>
-                        <a class="nav-link" href="">Update Surgery</a>                                    
+                        <a class="nav-link" href="">Create Surgery</a>                                   
                         <a class="nav-link" href="">Delete & View Surgery</a>
                     </nav>
                 </div>     

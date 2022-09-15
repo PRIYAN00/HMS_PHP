@@ -51,7 +51,7 @@
                             <th>Phone No</th>
                             <th>NIC No</th>
                             <th>Specialization</th>
-                            <th>Action</th>
+                            <th colspan="2">Action</th>
                         </tr>
                         <tr>
                             <td>#1</td>
@@ -63,6 +63,7 @@
                             <td>2058562980</td>
                             <td>General</td>
                             <td><a class="btn btn-danger">Delete</a></td>
+                            <td><a href="update_doctor.php" class="btn btn-success">Update</a></td>
                         </tr>
                     </table>
                 </div>

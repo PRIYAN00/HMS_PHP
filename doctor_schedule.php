@@ -40,31 +40,43 @@
         <div id="layoutSidenav_content">
             <main>
                 <div class="container-fluid px-4">
-                    <h1 class="mt-4 text-center">Update Doctor</h1>
-                    <form method="POST">
-                        <div class="container">
+                    <h1 class="mt-4 text-center">Delete And View Doctor Schedule</h1>
+                    <div class="card my-5">
+                    <div class="card-header">
+                    Doctor Schedule
+                    </div>			
+                    <div class="card-body">	
+                        <form action="" method="POST">
                         <label>Doctor ID</label>
-                        <input type="text" name="dID" class="form-control my-1" placeholder="Enter Doctor ID" disabled>
-                        <label>First Name</label>
-                        <input type="text" name="fname" class="form-control my-1" placeholder="Enter First Name">
-                        <label>Last Name</label>
-                        <input type="text" name="lname" class="form-control my-1" placeholder="Enter Last Name">
-                        <label>Phone Number</label>
-                        <input type="text" name="phoneno" class="form-control my-1" placeholder="Enter Phone Number">
-                        <label>Email Address</label>
-                        <input type="email" name="email" class="form-control my-1" placeholder="Enter Email Address">
-                        <label>Password</label>
-                        <input type="password" name="password" class="form-control my-1" placeholder="Enter Your New Password">
-                        <label>Address</label>
-                        <input type="text" name="address" class="form-control my-1" placeholder="Enter Address">
-                        <label>NIC No</label>
-                        <input type="text" name="nic" class="form-control my-1" placeholder="Enter NIC No">
-                        <label>Specialization</label>
-                        <input type="text" name="Specialization" class="form-control my-1" placeholder="Enter Doctor Specialization">
-
-                        <input type="submit" value="Update" class="btn btn-primary container mt-3">
-                        </div>
-                    </form>
+                        <input type="text" name="fname" class="form-control my-1" placeholder="Enter Doctor ID">
+                        <label>Date</label>
+                        <input type="text" name="fname" class="form-control my-1" value="<?php echo date("d-m-Y");?>" readonly>
+                        <label>Shift</label>
+                        <select name="WStatus" class="form-select" required>
+								<option value="Day Shift" >Day Shift</option>
+								<option value="Night Shift" >Night Shift</option>
+							</select>
+                            <input type="submit" value="Save" class="btn btn-success mt-3">
+                        </form>
+                    </div>
+                    </div>
+                    <table class="table table-responsive">
+                        <tr>
+                            <th># DSID</th>
+                            <th>Doctor Name & DID</th>
+                            <th>Date</th>
+                            <th>Shift</th>
+                            <th colspan="2">Action</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>Test Doctor - 10</td>
+                            <td>12/09/2022</td>
+                            <td>Day Shift</td>
+                            <td><a class="btn btn-danger">Delete</a></td>
+                            <td><a href="update_doctor.php" class="btn btn-success">Update</a></td>
+                        </tr>
+                    </table>
                 </div>
             </main>
         </div>
