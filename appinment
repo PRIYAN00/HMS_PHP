@@ -1,0 +1,31 @@
+<div class="modal fade" id="exampleModalapp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New Appoiment</h5>
+      </div>
+      <div class="modal-body">
+        <form action="insert_db_appointment.php" method="POST">
+            <label>Patient ID</label>
+            <input type="text" class="form-control my-1" placeholder="Enter Patient ID" name="PID" required>
+            <label>Date of Appoiment</label>
+            <input type="date" class="form-control my-1" name="ADATE" required>
+            <label>Doctor Name</label>
+            <select name="DID" class="form-select" required>
+            <?php
+            // Get images from the database
+            $query = $db->query("SELECT * FROM `doctor` ORDER BY `D_ID` DESC;");
+            if($query->num_rows > 0){
+            while($row = $query->fetch_assoc()){								
+            ?>	
+                <option value="<?php echo $row['D_ID'];?>"><?php echo $row['D_FNAME'];?> <?php echo $row['D_LNAME'];?></option>
+            <?php } } ?>
+            </select>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-success">Make Appoiment</button>
+            </div>
+        </form>
+      </div>
+    </div>
+</div>
